@@ -81,8 +81,8 @@ class _MyAppState extends State<MyApp> {
       appBar: AppBar(
         backgroundColor: Colors.white.withOpacity(0.8),
         iconTheme: const IconThemeData(color: Colors.grey),
-        title: Image.network(
-          'https://planvivienda.com.mx/img/logo01.png',
+        title: Image.asset(
+          "assets/images/logo01.png",
           fit: BoxFit.contain,
           height: 60,
         ),

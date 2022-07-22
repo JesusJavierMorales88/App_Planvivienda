@@ -61,12 +61,12 @@ class _PageStateFullWidgetState extends State<PageStateFullWidget> {
               Row(
                 children: [
                   Expanded(
-                    child: Image.network(
-                        "https://planvivienda.com.mx/02/SISPLAN/POO/WEBSERVICE/img/logs_nueva_app/Mesa de trabajo 13Logos.png"),
+                    child: Image.asset(
+                        "assets/images/Mesa de trabajo 13Logos.png"),
                   ),
                   Expanded(
-                    child: Image.network(
-                        "https://planvivienda.com.mx/02/SISPLAN/POO/WEBSERVICE/img/logs_nueva_app/Mesa de trabajo 13 copiaLogos.png"),
+                    child: Image.asset(
+                        "assets/images/Mesa de trabajo 13 copiaLogos.png"),
                   ),
                 ],
               ),
@@ -93,8 +93,8 @@ class _PageStateFullWidgetState extends State<PageStateFullWidget> {
                 "Alianza con:",
                 style: TextStyle(fontSize: 16),
               ),
-              Image.network(
-                  "https://planvivienda.com.mx/02/SISPLAN/POO/WEBSERVICE/img/logs_nueva_app/Mesa_de_trabajo_15Logos.png")
+              Image.asset(
+                  "assets/images/Mesa_de_trabajo_15Logos.png")
             ],
           ),
         ),

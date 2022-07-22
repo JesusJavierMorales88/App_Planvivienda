@@ -174,7 +174,7 @@ class _PrecalificacionState extends State<Precalificacion> {
                           children: [Text("widget.referencia")],
                         )
                       ]),
-                      Row(children: [
+                     Row(children: [
                         const SizedBox(
                           width: 220,
                           height: 45,
@@ -195,7 +195,7 @@ class _PrecalificacionState extends State<Precalificacion> {
                           ),
                         ),
                         Wrap(
-                          children: [Text("widget.referencia")],
+                          children: [Text(widget.referencia)],
                         )
                       ]),
                       Row(children: [
@@ -305,6 +305,7 @@ class _PrecalificacionState extends State<Precalificacion> {
                           ),
                         ),
                       ),
+                      const SizedBox(height: 10,),                      
                       const Text("Esta precalificación constituye un ejercicio numérico de"),
                       const Text("acuerdo a una simulación de condiciones financieras y"),
                       const Text("NO constituye una solicitud formal, ni implica obligación"),

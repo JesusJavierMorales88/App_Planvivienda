@@ -69,7 +69,12 @@ flutter:
   assets:
     - assets/images/PDF_file_icon.png
     - assets/images/icon-talleres.png
-  #   - images/a_dot_ham.jpeg
+    - assets/images/logo01.png
+    - assets/images/Recurso 1IMG032.png
+    - assets/images/Mesa de trabajo 13Logos.png
+    - assets/images/Mesa de trabajo 13 copiaLogos.png
+    - assets/images/Mesa_de_trabajo_15Logos.png
+  #   - images/a_dot_ham.jpeg logo01.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

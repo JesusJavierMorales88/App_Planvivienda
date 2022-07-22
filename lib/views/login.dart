@@ -23,14 +23,17 @@ class _LoginState extends State<Login> {
       body: SingleChildScrollView(
         child: Stack(
           children: [
-            Image.network(
-              "http://planvivienda.org/SISPLAN-PROD/img/Recurso 1IMG032.png",
-            ),
+            Image.asset("assets/images/Recurso 1IMG032.png"),
+              //           Image.network(
+              // "http://planvivienda.org/SISPLAN-PROD/img/Recurso 1IMG032.png",
+           // ),
             Container(
               margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 60),
-              child: Image.network(
+              child: 
+              /*Image.network(
                 "https://planvivienda.com.mx/img/logo01.png",
-              ),
+              ),*/
+               Image.asset("assets/images/logo01.png"),
             ),
             Container(
               margin: const EdgeInsets.symmetric(vertical: 120, horizontal: 0),
